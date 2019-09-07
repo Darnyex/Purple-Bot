@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const fs = require("fs");
 
 
-const token = 'NjEyMDkyMzY0NjU1Mjk2NTM4.XXQ4Tg.fXxMzif9QPSzWUCYualVuE9Kp9Q';
+const token = 'NjEyMDkyMzY0NjU1Mjk2NTM4.XVdVow.RjAbjUk0pZ7gQQD4W1zNQXl5tZs';
 
 const prefix = '>';
 let xp = require("./xp.json");
@@ -131,4 +131,4 @@ message.channel.send(lvlembed).then(d_msg => { d_msg.delete(5000)});
     })
 
 
-bot.login(process.env.token);
+bot.login(token);
