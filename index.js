@@ -131,4 +131,4 @@ message.channel.send(lvlembed).then(d_msg => { d_msg.delete(5000)});
     })
 
 
-bot.login(process.env.BOT_TOKEN);
+bot.login(token);
