@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const fs = require("fs");
 
 
-const token = 'NjEyMDkyMzY0NjU1Mjk2NTM4.XXUGeg.JCwyJoz6CHj1Bhki4Yd2FCFDahc';
+const token = 'NjEyMDkyMzY0NjU1Mjk2NTM4.XXUH_g.y_sF3AL3k2uJvJr21GVmEzb4Whc';
 
 const prefix = '>';
 let xp = require("./xp.json");
