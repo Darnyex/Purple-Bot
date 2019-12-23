@@ -1,0 +1,1 @@
+const purple = "5500FF"
